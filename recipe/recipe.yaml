@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.30"
+  version: "1.1.31"
 
 package:
   name: livekit-protocol
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/l/livekit-protocol/livekit_protocol-${{ version }}.tar.gz
-    sha256: fcc21ee7a3ad9e620a4de65c53c1795debf596cfaa8f0b7879c32776066ca752
+    sha256: 97fb2453b1050e21ec29e3933ef78df23349dcdc1b642857025d4784fd12547b
   - url: https://raw.githubusercontent.com/livekit/python-sdks/refs/tags/protocol-v${{ version }}/LICENSE
     sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
     file_name: LICENSE
